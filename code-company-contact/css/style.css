@@ -87,3 +87,39 @@ body{
 p.indent{
     text-indent: 2rem;
 }
+
+.grid {
+    background-color: #e1d9d1;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grid > div {
+    display: flex; 
+    flex-basis: calc(25% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+}
+.grid > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.grid img {
+    width: 22rem;
+    height: 15rem;
+    box-shadow: .2rem .1rem .5rem .4rem #888;
+    margin: 2rem
+}
+
+.grid h3 {
+    font-size: 1.75rem;
+}
+
+.grid p {
+    font-size: 1rem;
+}
+
