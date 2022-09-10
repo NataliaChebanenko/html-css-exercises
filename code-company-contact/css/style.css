@@ -80,7 +80,7 @@ body{
     font-size: 1rem;
     background-color: #fff;
     color: black;
-    padding: .75rem 1 rem;
+    padding: .75rem 1rem;
     margin: auto 0 0 auto;
 }
 
@@ -131,3 +131,24 @@ p.indent{
     font-size: 1rem;
 }
 
+.contact {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #e1d9d1;
+}
+
+h2 {
+    display: flex;
+    justify-content: left;
+    padding-left: 4rem;
+    align-items: center;
+    text-decoration: underline;
+}
+.contact figure img {
+    width: 25rem;
+    box-shadow: .2rem .1rem .5rem .4rem #888;
+}
+
+.contact section {
+    display: flex;
+}
