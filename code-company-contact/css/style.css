@@ -88,6 +88,14 @@ p.indent{
     text-indent: 2rem;
 }
 
+.title{
+    display: flex;
+    justify-content: left;
+    padding-left: 4rem;
+    align-items: center;
+    text-decoration: underline;
+    background-color: #e1d9d1;
+} 
 .grid {
     background-color: #e1d9d1;
     min-height: 100%;
