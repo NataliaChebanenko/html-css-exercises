@@ -56,8 +56,29 @@
         <img src="https://images.pexels.com/photos/5483070/pexels-photo-5483070.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="code">
     </figure>
     <section>
-        
+        <fieldset>
+            <legend> Form: </legend>
+            <form action="mailto:firstname.lastname@mymail.eu" method="get" enctype="text/plain">
+            <label for="fname">First name: </label><br>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="lname">Last name: </label><br>
+            <input type="text" name="lname" id="lname"><br><br>
+            <label for="birthday">Birthday: </label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="writetous"> Write to us: </label><br>
+            <textarea id="writetous" name="writetous" rows="5" cols="30"></textarea><br>
+            <input type="submit" value="Submit">
+            <input type="reset" name="reset" value="Clear form"/>
+            </form>
+        </fieldset>
     </section>
     </aside>
+    <footer class="footer">
+        <address class="address">Phonenumber: +46 78 898 16 78</address> <br>
+        <address class="address">Email: firstname.lastname@mymail.eu</address><br>
+        <address class="address">Stockholm</address>
+        <img src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="loggo">
+</footer>
+
 </body>
 </html>
