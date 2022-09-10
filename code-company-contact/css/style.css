@@ -1,3 +1,6 @@
+body{
+    border: .10rem solid black;
+}
 .menu {
     width: auto;
     height: 5rem;
@@ -37,4 +40,40 @@
 .menu ul li a:hover {
     background-color: #666;
     color: #ccc;
+}
+
+.main {
+    width: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: .75rem;
+    background-color: #e1d9d1;
+}
+.main figure img {
+    width: 20rem;
+    box-shadow: .2rem .1rem .5rem .4rem #888;
+}
+.main figure figcaption {
+    font-size: 1.25rem;
+}
+
+.main section {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.main section h1 {
+    font-size: 2.2rem;
+    margin: 2rem 0 0 0;
+}
+
+.main section h2 {
+    margin: 0;
+}
+
+p.indent{
+    text-indent: 2rem;
 }
