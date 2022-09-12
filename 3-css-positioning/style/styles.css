@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.topcontainer {
+    background-color: #000000;
+    margin: 0;
+    padding: 30px 20px;
+}
+body {
+    background-color:#215c5c;
+}
+h1 {
+    color: #EAF6F6;
+    font-family: 'Quicksand', sans-serif;
+}
+h2 {
+    font-family: 'Muli', sans-serif;
+}
+h3 {
+    font-family: 'Muli', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  li {
+    display: inline;
+  }
+
+  .navbar{
+    background-color: #142323;
+    padding: 20px 5px 10px;
+    margin: 0;
+  }
+
+  a {
+    color: #445f60;
+    font-family: 'Quicksand', sans-serif;
+    margin: 20px 10px;
+    text-decoration: none;
+
+  }
+  a:hover{
+    color: #EAF6F6;
+    background-repeat: no-repeat;
+    
+}
+.bottom-section {
+    background-color: #ade2e4;
+    margin:auto;
+    padding: 20px 10px;
+}
+article {
+    background-color: #bbcdcd;
+    background-position: 0%;
+}
+
+.random {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article {
+    padding-right: 30px;
+    flex-grow: 1;
+
+}
+
+.footer {
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+color: #EAF6F6;
+}
+.row-1 {
+display: flex;
+
+}
+.about-container {
+    width: 800px;
+}
+.main-img {
+    background-color: #ade2e4;
+    background-image: url("https://images.pexels.com/photos/2422290/pexels-photo-2422290.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    width: 800px;
+    height: 450px;
+
+}
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.profile-img {
+width: 250px;
+height: 250px;
+background-color: #ade2e4;
+margin: 5px 0;
+
+}
